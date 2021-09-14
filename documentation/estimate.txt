@@ -1,0 +1,9 @@
+Estimate of person-hours for completing the project
+
+Weekly meetings - 1.5 hours X 2 = 3 hours total
+communcation on discord - 1 hour total
+game development - 6 hours total
+figuring out documentation - 3 hours total
+
+estimate of total person-hours = 13 hours
+
