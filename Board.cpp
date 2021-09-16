@@ -31,7 +31,7 @@ Board::~Board()
 void Board::print()
 {
     cout << "  ";// the first empty left-up corner
-    for (int i = 0; i < 10; i++) 
+    for (int i = 0; i < 10; i++)
     {
         cout << (char) (i+'A'); //print the column sequence from A-J
         cout <<' ';
@@ -63,8 +63,8 @@ bool Board::exchange(int row_num, char column_letter, char new_letter)
     {
         return 0; //return false
     }
-    
-    
+
+
 }
 
 bool Board::put_column_ship(int row_num, char column_letter, int size,char new_letter)
@@ -85,8 +85,8 @@ bool Board::put_column_ship(int row_num, char column_letter, int size,char new_l
     {
         return 0; //return false
     }
-   
-    
+
+
 }
 
 bool Board::put_row_ship(int row_num, char column_letter, int size, char new_letter)
