@@ -2,12 +2,11 @@
 #define EXECUTIVE_H
 
 #include <iostream>
-#include "Board.h"
+#include "Player.h"
 
 class Executive
 {
 private:
-  Board board;
   int player1ships;
   int player2ships;
 public:
