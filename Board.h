@@ -16,6 +16,9 @@ class Board
 
     ~Board(); // delete m_map claen the memory
 
+    Board(char hidden_letter);
+    //@process - this function works for hidden_board, which exchange all the '~' into 'hidden_letter'
+
     void print(); // pint the m_map witch has the row's sequence shows 1-9
     // it has the column's sequence shows A-J
     // it shows the whole m_map
